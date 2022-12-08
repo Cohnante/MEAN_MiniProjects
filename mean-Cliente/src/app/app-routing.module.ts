@@ -4,7 +4,6 @@ import { CreateProductComponent } from './components/create-product/create-produ
 import { ListarProductsComponent } from './components/listar-products/listar-products.component';
 
 const routes: Routes = [
-  {path:'',component:ListarProductsComponent, redirectTo:'full'},
   {path: 'Products/create', component:CreateProductComponent},
   {path: 'Products/Editar:id', component:ListarProductsComponent},
   {path:'**',component:ListarProductsComponent}
